@@ -9,9 +9,8 @@ This project shows ways of entering data in Excel from a pdf, without having to 
 ## Workbook Includes:
 - Cleaned Data
 - Original / Inconsistent Data
-## Data Cleaning Process:
-The PDF Screenshot was taken in 3 parts with zoom so that the text can be clearly scanned through photos app on PC. Each Accountant’s information was copied through CTRL + C so that no errors appear at the time of pasting the copied text in Excel. Of course there were errors while copying, for reference, when information of Accountant [ Charles J. Avarello CPA, CFP® ] was copied the cursor also copied the Name and Email of another Accountant [Alane Boffa CPA, Email: aboffa@cohencpa.com ]. So after every Accountant’s information a whole row was left null just so that there is no confusion during data entry.
 ## Data Entry Process
+The PDF Screenshot was taken in 3 parts with zoom so that the text can be clearly scanned through photos app on PC. Each Accountant’s information was copied through CTRL + C so that no errors appear at the time of pasting the copied text in Excel. Of course there were errors while copying, for reference, when information of Accountant [ Charles J. Avarello CPA, CFP® ] was copied the cursor also copied the Name and Email of another Accountant [Alane Boffa CPA, Email: aboffa@cohencpa.com ]. So after every Accountant’s information a whole row was left null just so that there is no confusion during data entry.
 -	Made a proper header row.
 -	Copied every Accountant’s information one at a time.
 -	Leaving the cell that contains the Name of the Accountant, copied rest of the cells and pasted them through ‘Paste Transpose’ depending upon the detail of the first copied cell. If it’s a title then pasted on B2 else C2.
